@@ -1,0 +1,134 @@
+#header{
+	height: 80px;
+
+}
+
+#menu{
+	position: absolute;
+	right: 20px;
+	width: 300px;
+	height: 30px;
+	font-family: arial, sans-serif;
+	color: #3A3A3A;
+	font-size: 13px;
+	text-align: right;
+}
+
+.menu-item-top{
+	display: inline-block;
+	margin-left: 15px;
+}
+
+a.topmenubutton{
+	text-decoration: none;
+	color: #3A3A3A;
+}
+
+a.topmenubutton:hover{
+	text-decoration: underline;
+}
+
+.menu-item-bottom{
+	display: inline-block;
+	margin-right: 30px;
+}
+
+a.bottommenubutton{
+	text-decoration: none;
+	color: #666666;
+}
+
+a.bottommenubutton:hover{
+	text-decoration: underline;
+}
+
+#appsbutton{
+
+}
+
+td{
+	width: 2px;
+	height: 2px;
+	background-color: gray;
+}
+
+td:hover{
+	width: 2px;
+	height: 2px;
+	background-color: black;
+}
+
+#body{
+	text-align: center;
+	width: 100%;
+
+}
+
+#search-wrapper{
+
+}
+
+input {
+	height: 38px;
+	border: 1px solid #d5d5d5;
+	width:  450px;
+	padding:  6px 9px 0 16px;
+	box-shadow: 1px 2px 2px #d5d5d5;
+}
+
+#button-wrapper{
+	padding-top: 18px;
+}
+
+button {
+	background-color: #F6F6F6;
+	border-radius: 2px;
+	border: none;
+	color:  #757575;
+	font-size: 13px;
+	font-weight: bold;
+	margin:  11px 4px;
+	padding: 0 16px;
+	height: 36px;
+	box-sizing: border-box;
+}
+
+button:hover {
+	border: 1px solid #666666;
+}
+
+button a{
+	text-decoration: none;
+	color: #757575;
+}
+
+button a:hover{
+	text-decoration: none;
+	color: black;
+}
+
+#footer{
+	height: 40px;
+	width: 100%;
+	background-color: #F2F2F2;
+	position: absolute;
+	bottom: 0px;
+	color:  #666666;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	border-top: 1px solid #E4E4E4;
+	font-style: none;
+}
+
+#left-footer{
+	position: absolute;
+	margin-top: 12px;
+	padding-left: 10px;
+
+}
+
+#right-footer{
+	position: absolute;
+	margin-top: 12px;
+	right: 20px;
+}
