@@ -1,3 +1,6 @@
+*{
+
+}
 #header{
 	overflow:  hidden;
 	margin-top: 10px;
@@ -11,12 +14,55 @@
 .menu-item-top, .menu-item-bottom{
 	float: left;
 	padding-left: 15px;
+	font-family: arial,sans-serif;
+	color:  #666;
+	line-height: 40px;
+	font-size: 14px;
+	text-decoration: none;
 }
+
+.menu-item-top a, .menu-item-bottom a{
+	color:  #666;
+	text-decoration: none;
+}
+
 
 #body{
 	text-align: center;
 	margin: 100px auto 0;
+
 }
+
+.search-wrapper{
+	width: 428px;
+	height: 44px;
+	border-radius: 3px;
+	box-shadow: 0;
+	border:  1px solid #e4e4e4;
+	box-shadow: 0px 1px 3px #e4e4e4;
+}
+
+#search-input{
+	width: 100%;
+	height:  100%;   
+}
+
+.button-class{
+	font-family: arial,sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+	border: none;
+	border-radius: 4px;
+	padding: 15px 20px;
+	margin: 20px 5px;
+	color:  #666;
+	background-color: #f2f2f2;
+}
+
+.button-class a{
+	text-decoration: none;
+	color: #666;
+	}
 
 #footer{
 	position: absolute;
@@ -25,8 +71,10 @@
 	width: 100%;
 	overflow: hidden;
 	background-color: #f2f2f2;
-	height: 35px;
+	height: 40px;
 	line-height: 35px;
+	border-top: 1px solid #e4e4e4;
+	padding: 5px 10px;
 }
 
 #left-footer{
