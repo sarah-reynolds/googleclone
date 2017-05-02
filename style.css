@@ -1,6 +1,4 @@
-*{
 
-}
 #header{
 	overflow:  hidden;
 	margin-top: 10px;
@@ -9,16 +7,24 @@
 #menu{
 	float: right;
 	margin-right: 10px;
+
 }
 
 .menu-item-top, .menu-item-bottom{
 	float: left;
-	padding-left: 15px;
 	font-family: arial,sans-serif;
 	color:  #666;
-	line-height: 40px;
 	font-size: 14px;
 	text-decoration: none;
+}
+
+.menu-item-top{
+	line-height: 28px;
+	padding: 12px;
+}
+
+.menu-item-top.bell{
+	padding-top: 17px;
 }
 
 .menu-item-top a, .menu-item-bottom a{
@@ -26,15 +32,42 @@
 	text-decoration: none;
 }
 
+.menu-item-top a:hover, .menu-item-bottom  a:hover{
+	text-decoration: underline;
+}
+
+.menu-item-top.squares{
+	width: 30px;
+	height: 30px;
+	background: url('./squares-1.png');
+	background-size: 30px 30px;
+	background-repeat: no-repeat;
+	background-position: center; 
+}
+
+.menu-item-top.squares:hover{
+	width: 30px;
+	height: 30px;
+	background: url('./squares-2.png');
+	background-size: 30px 30px;
+	background-repeat: no-repeat;
+	background-position: center; 
+}
+
 
 #body{
 	text-align: center;
-	margin: 100px auto 0;
+	margin: 150px auto 0;
 
 }
 
+#google-logo img{
+	width: 272px;
+	margin-bottom: 30px;
+}
+
 .search-wrapper{
-	width: 428px;
+	width: 650px;
 	height: 44px;
 	border-radius: 3px;
 	box-shadow: 0;
@@ -52,7 +85,7 @@
 	font-weight: 700;
 	font-size: 14px;
 	border: none;
-	border-radius: 4px;
+	border-radius: 3px;
 	padding: 15px 20px;
 	margin: 20px 5px;
 	color:  #666;
@@ -64,24 +97,43 @@
 	color: #666;
 	}
 
+.button-class a:hover{
+	text-decoration: underline;
+	color: #000;
+	}
+
 #footer{
-	position: absolute;
+	position: fixed;
 	bottom: 0px;
 	left: 0px;
 	width: 100%;
 	overflow: hidden;
 	background-color: #f2f2f2;
-	height: 40px;
-	line-height: 35px;
+	height: 30px;
+	padding: 10px 0 10px 0;
+	vertical-align: middle;
 	border-top: 1px solid #e4e4e4;
-	padding: 5px 10px;
 }
 
 #left-footer{
 	float: left;
+	margin-left: 30px;
+	line-height: 30px;
+	height: auto;
+}
+
+#left-footer .menu-item-bottom{
+	padding-right: 30px;
 }
 
 #right-footer{
 	float: right;
-	margin-right: 10px;
+	margin-right: 30px;
+	line-height: 30px;
+	height: auto;
+	padding-left: 30px;
+}
+
+#right-footer .menu-item-bottom{
+	padding-left: 30px;
 }
